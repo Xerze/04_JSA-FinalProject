@@ -4,8 +4,22 @@
   "description": "Proyecto final para el modulo 4. Una API RESTful usando express y conectada a una base de datos de libros (MySQL)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "books": "babel-node --presets=@babel/preset-env",
+    "dev": "nodemon --exec npm run books src/index.js"
   },
   "author": "Xerzie (M. Granados)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "promise-mysql": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
 }
