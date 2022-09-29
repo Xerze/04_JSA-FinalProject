@@ -17,7 +17,7 @@ const getBooks = async (req, res) => {
         res.json(result);
     } catch(err) {
         res.status(500);
-        res.send(error.message);
+        res.send(err.message);
     };
 };
 
