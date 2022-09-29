@@ -1,0 +1,11 @@
+{
+  "name": "7_final-project",
+  "version": "1.0.0",
+  "description": "Proyecto final para el modulo 4. Una API RESTful usando express y conectada a una base de datos de libros (MySQL)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xerzie (M. Granados)",
+  "license": "ISC"
+}
