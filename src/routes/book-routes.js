@@ -1,5 +1,5 @@
 // Importamos las rutas del módulo express.
-import { router } from 'express';
+import { Router } from 'express';
 
 /** Importamos los métodos (verbos) desde el archivo 'data.controller' (carpeta controllers)
  *      bajo el nombre book-controller
@@ -7,7 +7,7 @@ import { router } from 'express';
 import { methods as bookController } from './../controllers/book-controller';
 
 // Llamamos a Router (Importado desde express y lo asignamos a un objeto pora manipularlo).
-const router = router();
+const router = Router();
 
 // Usamos el objeto router para crear rutas para los verbos de la API.
 // los métodos usan como parámetro una ruta y un handler (manejador).
